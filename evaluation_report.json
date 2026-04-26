@@ -1,0 +1,44 @@
+[
+  {
+    "query": "What is the date of the last update of the AWS Service Terms?",
+    "score": 1.0,
+    "pass": true,
+    "reason": "The score is 1.00 because there are no contradictions found in the retrieval context, indicating perfect faithfulness between the actual output and the retrieval context."
+  },
+  {
+    "query": "What type of cookies cannot be deactivated?",
+    "score": 0.0,
+    "pass": false,
+    "reason": "System Crash: Evaluation LLM outputted an invalid JSON. Please use a better evaluation model."
+  },
+  {
+    "query": "What will happen if you block some types of cookies?",
+    "score": 0.5,
+    "pass": false,
+    "reason": "The score is 0.50 because the actual output partially aligns with the retrieval context, as it acknowledges a contradiction between reviewing and changing choices and the potential impact on user experience."
+  },
+  {
+    "query": "What type of support options are required during the entire period of use of AWS Outposts?",
+    "score": 0.0,
+    "pass": false,
+    "reason": "System Crash: Evaluation LLM outputted an invalid JSON. Please use a better evaluation model."
+  },
+  {
+    "query": "What happens if the Outposts Equipment is lost between when it is first in your possession and when the carrier accepts the Outposts Equipment for delivery back to AWS?",
+    "score": 0.0,
+    "pass": false,
+    "reason": "System Crash: Evaluation LLM outputted an invalid JSON. Please use a better evaluation model."
+  },
+  {
+    "query": "What is required for the facility at which the Outposts Equipment is located?",
+    "score": 0.0,
+    "pass": false,
+    "reason": "System Crash: Evaluation LLM outputted an invalid JSON. Please use a better evaluation model."
+  },
+  {
+    "query": "What is included in the AWS Snow Family?",
+    "score": 0.0,
+    "pass": false,
+    "reason": "System Crash: Evaluation LLM outputted an invalid JSON. Please use a better evaluation model."
+  }
+]
